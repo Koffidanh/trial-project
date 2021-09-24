@@ -6,6 +6,8 @@
     position: relative;
     top: 0;
     left:0;
+    width: 100%;
+    
   }
 
 #leftSize {
@@ -130,4 +132,28 @@ span {
 }
 .instagram {
     padding-top: 10px;
+}
+@media screen and (min-width: 300px) {
+    #leftSize {
+        height: 1000px;
+        width: 400px;
+        background-color: #7a241d;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        position: absolute;
+        margin-right: 100px;
+        
+        left: 0;
+        z-index: 1;
+        bottom: 0;
+        right: 0;
+        
+    }
+    #social {
+        left: 1000px;
+        background-color: yellow;
+        z-index: 3;
+        
+    }
+
 }
