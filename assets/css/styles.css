@@ -2,28 +2,37 @@
     box-sizing: border-box;
   }
 
+  #container {
+    position: relative;
+    top: 0;
+    left:0;
+  }
 
 #leftSize {
     
     height: 1000px;
-    width: 35%;
+    width: 400px;
     background-color: #7a241d;
     padding-left: 0 !important;
     padding-right: 0 !important;
     position: absolute;
     margin-right: 100px;
-    top: 0;
+    
+    left: 0;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
     
 };
 
 #image {
-   
+    position: relative;
   height: auto;
     width: 100%;
     background-repeat: no-repeat; 
     padding-left: 0 !important;
     padding-right: 0 !important;
-    position: relative;
+    
     right: 0;
     left: 0;
     object-fit: cover;
@@ -41,20 +50,21 @@
 }
  
 #text {
-    font-size: 180px;
+    font-size: 200px;
     position: absolute;
-    top: 40%;
-    left: 170px;
+    bottom: 200px;
+    z-index: 2;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 10px;
+    
 }
 
 #plus {
     position: absolute;
-    top: 65%;
-   left: 50%;
+    bottom: 190px;
+   left: 10%;
   width: 300px;
   font-size: 30px;
   color: white;
+  z-index: 2;
 }
