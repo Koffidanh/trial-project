@@ -113,3 +113,21 @@ span {
     top: 30px;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+#readMoreButton {
+    background-image: linear-gradient(to right, rgb(241, 10, 10) ,rgba(168, 158, 158, 0) );
+    color: white;
+}
+
+#social {
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+}
+
+.facebook {
+    padding-bottom: 10px;
+}
+.instagram {
+    padding-top: 10px;
+}
