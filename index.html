@@ -17,7 +17,7 @@
     <!-- Background image -->
 
 
-   <div class="row" id="container">
+   <div class="row" class="container-fluid" id="container">
     <div class="col-md-12">
         
             <img id="image" src="/assets/images/Coding-Challenge-Image.png" alt="background image" width="1450" height="1000" />
@@ -45,21 +45,55 @@
             <div class="col-md-2"></div>
             <div class="col-md-2">
                 <div id="plus" >
+                    
+                    <button name="plusButton" id="plusButton"  role="button" >
+                    
+                    </button>
                     <svg  xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43"><g><g><path fill="#fff" d="M29.295 22.139h-6.833v7.17h-1.934v-7.17h-6.833v-1.815h6.833v-7.11h1.934v7.11h6.833zM21.5 0C9.626 0 0 9.626 0 21.5S9.626 43 21.5 43 43 33.374 43 21.5A21.5 21.5 0 0 0 21.5 0z"/></g></g></svg>
-                    More Details
+                    <p> More Details</p>          
+                  
                 </div>
             </div>
             <div class="col-md-8"></div>
         </div>
     
     </div>
+
+    <div class="row" id="cardPopup">
+        
+        
+      <div class="col-md-1-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+                <div class="col-md-10"><h3 class="card-title">Explore</h3> </div>
+                <div class="col-md-2"> <span>X</span> </div>
+                <button name="hideButton" id="hideButton"  role="button" ></button>
+            </div>
+            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque
+                ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
+                minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                laboriosam, nisi ut aliquid ex ea commodi consequatur? 
+                </p>
+          </div>
+        </div>
+      </div>
+          </div>
+
    </div>
 
    
    
     
 
-     
+   
    
   
     
@@ -72,7 +106,7 @@
 
 
     <!-- Optional JavaScript -->
-    <script type='text/javascript' src="asset/script/index.js"></script>
+    <script type='text/javascript' src="assets/script/index.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
