@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+#leftSize {
+    
+    height: 1000px;
+    width: 35%;
+    background-color: #7a241d;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: absolute;
+    margin-right: 100px;
+    top: 0;
+    
+};
+
+#image {
+   
+  height: auto;
+    width: 100%;
+    background-repeat: no-repeat; 
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: relative;
+    right: 0;
+    left: 0;
+    object-fit: cover;
+    
+    
+}
+
+.col-md-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.col-md-8 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+ 
+#text {
+    font-size: 180px;
+    position: absolute;
+    top: 40%;
+    left: 170px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 10px;
+}
+
+#plus {
+    position: absolute;
+    top: 65%;
+   left: 50%;
+  width: 300px;
+  font-size: 30px;
+  color: white;
+}
